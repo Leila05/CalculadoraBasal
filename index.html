@@ -3,6 +3,7 @@
     <head>
         <title>Calculadora Basal</title>
         <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div id="contenedor">
@@ -10,10 +11,12 @@
                 <div class="contenido">
                     <h1>CALCULADORA BASAL</h1>
                     <input class="item"  id="peso" type="number" placeholder="Ingrese el peso en kg"/><br><br>
-                    <p class="item" id="error">*Debe ingresar todos los datos</p>
+                    <p class="item" id="error">*Debe ingresar todos los datos*</p>
                     <button class="item" id="calcular">Calcular</button>
-                    <p class="item resultado" id="flu">71cc/h</p>
-                    <p class="item resultado" id="man">m+m/2 : 150cc/h</p>
+                    <p class="item resultado" id="flu"></p>
+                    <p class="item resultado" id="man"></p>
+                    <p class="item resultado" id="vol1"></p>
+                    <p class="item resultado" id="vol2"></p>
                 </div>
             </div>
             <div id="detalle">
